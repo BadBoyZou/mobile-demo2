@@ -1,0 +1,245 @@
+@rem:72rem;
+body, div, p, h1, h2, h3, h4, h5, h6,
+dl, dt, dd, ul, ol, li,
+form, button, input
+{
+	margin:0;
+	padding:0;
+}
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+img{
+	vertical-align:top;
+}
+em,i{
+	font-style: normal;
+}
+a,input,button{
+	/*阴影*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	/*ios下圆角*/
+	-webkit-appearance:none;
+	border:none;
+	outline:none;
+}
+
+html,body{
+	height:100%;
+	font-family:'Helvetica'; /*所有移动端的英文字体 */
+	-webkit-text-size-adjust:100%;
+	
+	overflow:-hidden;
+}
+.clearfix:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+.clearfix {
+	zoom:1; /* for IE6 IE7 */
+}
+
+/*头部header*/
+html,body{
+	height: 1959/@rem;
+}
+#wrap{
+	height: 100%;
+}
+#wrap .con{
+	height: 100%;
+	overflow: hidden;
+}
+.header{
+	width: 100%;
+	height: 160/@rem;
+	display: flex;
+	display:-webkit-flex;
+	flex-direction:row;
+}
+.header .menu{
+	width: 40/@rem;
+	height: 40/@rem;
+	padding: 80/@rem 0 0 80/@rem;
+}
+.header .menu i{
+	width:40/@rem;
+	height:40/@rem;
+	display:block;
+	background:url(../img/icon_1.png);
+	background-size:cover;
+}
+.header .text{
+	padding: 50/@rem 0 0 294/@rem;
+}
+
+/*分值*/
+.body{
+	background: url('../img/bg_1.jpg') center center repeat;
+	width: 100%;
+}
+.body .list_1{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	padding: 90/@rem 100/@rem 103/@rem 100/@rem;	
+}
+.body .list_1 li{
+	font-size: 50/@rem;
+	color: #d5eedb;
+}
+.body .list_2{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	padding: 0 100/@rem 141/@rem 100/@rem;	
+}
+.body .list_2 li{
+	font-size: 100/@rem;
+	color: #fff;
+}
+.body .list_2 .aa{
+	position: relative;
+}
+.body .list_2 .aa span{
+	display: inline-block;
+}
+.body .list_2 .lt{
+	width: 3/@rem;
+	height: 3/@rem;	
+	border: 10/@rem solid #fff;
+ 	border-radius: 50%;
+}
+.body .list_2 .gt{
+	width: 28/@rem;
+	height: 44/@rem;	
+	background: url('../img/icon_3.jpg') no-repeat;
+	background-size: 28/@rem 44/@rem;
+}
+/*文字内容*/
+.instructions{
+	width: 100%;
+	height: 111/@rem;
+	background: #2cd3c7;
+	display: felx;
+	display: -webkit-flex;
+	justify-content:center;
+	align-items:center;
+}
+.instructions div{
+	font-size: 40/@rem;
+	color: #d3f6ed;
+}
+/*module*/
+.module{
+	width: 100%;
+	background: #f5f5f5;
+}
+.module .active{
+	background: #fff;
+}
+.module ul{
+	height:372/@rem;
+	padding-top: 25/@rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content:space-around;
+	padding-left: 29/@rem;
+}
+.module ul li{
+	width:320/@rem;
+	height:100%;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.module ul li a{
+	display:block;
+	height:73%;
+	text-align:center;
+	font-size:35/@rem;
+	color:#666;
+	font-weight: bold;
+}
+.module ul li a img{
+	width:78/@rem;
+	height:84/@rem;
+	display:block;
+	margin:0 auto;
+	margin-top: 98/@rem;
+	margin-bottom:62/@rem;
+}
+.module ul .moduleList{
+	position: relative;
+}
+.module ul .moduleList span{
+	display: block;
+	width: 120/@rem;
+	height: 55/@rem;
+	line-height: 55/@rem;
+	background: #ed8a1e;
+	color: #fff;	
+	position: absolute;
+	top: 20/@rem;
+	right: 20/@rem;
+	font-size: 30/@rem;
+	text-align: center;
+	border-radius: 40%;
+	font-weight: bold;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height: 400/@rem;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.footer .prompt{
+	padding-right: 360/@rem;
+}
+.footer .prompt i{
+	display: inline-block;
+	width: 39/@rem;
+	height: 34/@rem;
+	padding:0 24/@rem 0 0;
+	background: url('../img/icon_4.jpg') no-repeat;
+	background-size: 39/@rem 34/@rem;
+}
+.footer .prompt span{
+	font-size: 35/@rem;
+	color: #ff8b17;
+}
+.footer .info{
+	font-size: 35/@rem;
+	color: #7a8a92;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

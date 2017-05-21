@@ -1,0 +1,240 @@
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+em,
+i {
+  font-style: normal;
+}
+a,
+input,
+button {
+  /*阴影*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*ios下圆角*/
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Helvetica';
+  /*所有移动端的英文字体 */
+  -webkit-text-size-adjust: 100%;
+  overflow: -hidden;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+  /* for IE6 IE7 */
+}
+/*头部header*/
+html,
+body {
+  height: 27.20833333rem;
+}
+#wrap {
+  height: 100%;
+}
+#wrap .con {
+  height: 100%;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 2.22222222rem;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+.header .menu {
+  width: 0.55555556rem;
+  height: 0.55555556rem;
+  padding: 1.11111111rem 0 0 1.11111111rem;
+}
+.header .menu i {
+  width: 0.55555556rem;
+  height: 0.55555556rem;
+  display: block;
+  background: url(../img/icon_1.png);
+  background-size: cover;
+}
+.header .text {
+  padding: 0.69444444rem 0 0 4.08333333rem;
+}
+/*分值*/
+.body {
+  background: url('../img/bg_1.jpg') center center repeat;
+  width: 100%;
+}
+.body .list_1 {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.38888889rem 1.43055556rem 1.38888889rem;
+}
+.body .list_1 li {
+  font-size: 0.69444444rem;
+  color: #d5eedb;
+}
+.body .list_2 {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  padding: 0 1.38888889rem 1.95833333rem 1.38888889rem;
+}
+.body .list_2 li {
+  font-size: 1.38888889rem;
+  color: #fff;
+}
+.body .list_2 .aa {
+  position: relative;
+}
+.body .list_2 .aa span {
+  display: inline-block;
+}
+.body .list_2 .lt {
+  width: 0.04166667rem;
+  height: 0.04166667rem;
+  border: 0.13888889rem solid #ffffff;
+  border-radius: 50%;
+}
+.body .list_2 .gt {
+  width: 0.38888889rem;
+  height: 0.61111111rem;
+  background: url('../img/icon_3.jpg') no-repeat;
+  background-size: 0.38888889rem 0.61111111rem;
+}
+/*文字内容*/
+.instructions {
+  width: 100%;
+  height: 1.54166667rem;
+  background: #2cd3c7;
+  display: felx;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.instructions div {
+  font-size: 0.55555556rem;
+  color: #d3f6ed;
+}
+/*module*/
+.module {
+  width: 100%;
+  background: #f5f5f5;
+}
+.module .active {
+  background: #fff;
+}
+.module ul {
+  height: 5.16666667rem;
+  padding-top: 0.34722222rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  padding-left: 0.40277778rem;
+}
+.module ul li {
+  width: 4.44444444rem;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.module ul li a {
+  display: block;
+  height: 73%;
+  text-align: center;
+  font-size: 0.48611111rem;
+  color: #666;
+  font-weight: bold;
+}
+.module ul li a img {
+  width: 1.08333333rem;
+  height: 1.16666667rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.36111111rem;
+  margin-bottom: 0.86111111rem;
+}
+.module ul .moduleList {
+  position: relative;
+}
+.module ul .moduleList span {
+  display: block;
+  width: 1.66666667rem;
+  height: 0.76388889rem;
+  line-height: 0.76388889rem;
+  background: #ed8a1e;
+  color: #fff;
+  position: absolute;
+  top: 0.27777778rem;
+  right: 0.27777778rem;
+  font-size: 0.41666667rem;
+  text-align: center;
+  border-radius: 40%;
+  font-weight: bold;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  height: 5.55555556rem;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .prompt {
+  padding-right: 5rem;
+}
+.footer .prompt i {
+  display: inline-block;
+  width: 0.54166667rem;
+  height: 0.47222222rem;
+  padding: 0 0.33333333rem 0 0;
+  background: url('../img/icon_4.jpg') no-repeat;
+  background-size: 0.54166667rem 0.47222222rem;
+}
+.footer .prompt span {
+  font-size: 0.48611111rem;
+  color: #ff8b17;
+}
+.footer .info {
+  font-size: 0.48611111rem;
+  color: #7a8a92;
+}
